@@ -16,7 +16,7 @@ body {
 }
 
 .mainBody {
-    max-width: 25%;
+    width: 25%;
     height: 70%;
     background-color: white;
     padding: 10px;
@@ -85,5 +85,13 @@ input {
 
     .mainBody {
         max-width: 65%;
+    }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 400px) {
+
+    .mainBody {
+        width: 65%;
+        height: 70%;
     }
 }
